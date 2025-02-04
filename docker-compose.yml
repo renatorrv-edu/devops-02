@@ -3,7 +3,7 @@ version: "3.1"
 services:
   galeria:
     container_name: galeria
-    image: renatorrv/test:latest
+    image: renatorrv/galeria:latest
     ports:
       - 80:5000
     restart: always
